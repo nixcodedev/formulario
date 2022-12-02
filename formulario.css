@@ -15,7 +15,7 @@
     margin-left: 10%;
 }
 
-fildset{
+fieldset{
     border: 0;
 }
 
@@ -55,3 +55,12 @@ fieldset.grupo .campo{
     display: block;
 }
 
+.campo select option{
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus{
+    background: #E0E0F8;
+}
+
+.botao
